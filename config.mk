@@ -27,6 +27,3 @@ ifndef LINEAGE_PLATFORM_REV
   # If you are doing a release and this is NOT 0, you are almost certainly doing it wrong
   LINEAGE_PLATFORM_REV := 0
 endif
-
-# Parasite Prebuilts
-$(call inherit-product-if-exists, vendor/parasite-prebuilts/config.mk)
